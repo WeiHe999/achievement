@@ -28,6 +28,8 @@
   "bucket": "rnd-avm-v2-dev"\
 }
 
+Note: the value for "version" must be the same as the variable **experiment_version** defined in terraform.
+
 
 
 
