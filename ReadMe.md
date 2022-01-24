@@ -12,5 +12,11 @@
 
 ## avm_report dashboard server
 
+* set up an EC2 instance at AWS, allow access to TCP port 8501 in security group setting
+
+* Install python packages: psycopg2-binary, plotly_express, streamlit, sqlalchemy
+
+* Run the server in a tmux terminal: streamlit run avm_report.py
+
 
 
