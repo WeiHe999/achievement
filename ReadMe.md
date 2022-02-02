@@ -39,7 +39,7 @@
 | Metric        | Value         |
 | ------------- |:-------------:|
 | Test size     | 19234         |
-| Median_APE    | 0.0921        |
-| Mean_APE      | 0.2291        |
-| Within_15%    | 0.6717        |
+| Median-APE    | 0.0921        |
+| Mean-APE      | 0.2291        |
+| Within-15%    | 0.6717        |
 
