@@ -35,6 +35,15 @@
 * Evaluation notebook: https://dev-yifeng-2-large-node.notebook.ca-central-1.sagemaker.aws/notebooks/avm2.5/994-production-monthly-evaluation/2022-02/01_avmv2_5_evaluation_v20220202.ipynb
 
 * Evaluation result:
+
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+
+
 | Metric        | Value         |
 | ------------- |:-------------:|
 | Test size     | right foo     |
