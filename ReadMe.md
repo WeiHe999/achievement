@@ -2,8 +2,8 @@
 
 ## Training
 * Description: 
-no change from master branch, 
-retrain the model using year-month 202110
+1. no change from master branch
+1. retrain the model using year-month 202110
 
 * Training:
 Step function input:
