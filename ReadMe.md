@@ -1,12 +1,11 @@
 # Experiment v20220202
 
-## Training
-* Description: 
-1. no change from master branch
-1. retrain the model using year-month 202110
+## Description:
+* No change from master branch
+* Retrain the model using year-month 202110
 
-* Training:
-Step function input:
+## Training
+* Step function input:
 ```
 {
   "job_key": "Train20220202",
@@ -16,7 +15,6 @@ Step function input:
   "bucket": "rnd-avm-v2-dev"
 }
 ```
-
 
 ## Evaluation:
 * Step function input:
