@@ -1,5 +1,6 @@
-## Experiment v20220202
+# Experiment v20220202
 
+## Training
 * Description: 
 no change from master branch, 
 retrain the model using year-month 202110
@@ -14,8 +15,8 @@ Step function input:
   "bucket": "rnd-avm-v2-dev"
 }
 
-* Evaluation:
-Step function input:
+## Evaluation:
+* Step function input:
 {
   "job_key": "EvProd20220202",
   "version": "v20220202",
@@ -26,9 +27,9 @@ Step function input:
   "test_data_key": "avm2.5/production/monthly-evaluation/v20220202/df_sales.csv"
 }
 
-Test data: out-of-time test set with sales from 2021-10-01 to 2021-12-31.
+* Test data: out-of-time test set with sales from 2021-10-01 to 2021-12-31.
 
-Evaluation notebook: https://dev-yifeng-2-large-node.notebook.ca-central-1.sagemaker.aws/notebooks/avm2.5/994-production-monthly-evaluation/2022-02/01_avmv2_5_evaluation_v20220202.ipynb
+* Evaluation notebook: https://dev-yifeng-2-large-node.notebook.ca-central-1.sagemaker.aws/notebooks/avm2.5/994-production-monthly-evaluation/2022-02/01_avmv2_5_evaluation_v20220202.ipynb
 
 
 
