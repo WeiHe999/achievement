@@ -1,22 +1,37 @@
-## avm_report step function pipeline:
+## Experiment v20220202
 
-* The pipeline aims to store the evaluation data, new sales, new listing for a specified month into Postgres database.
+* Description: 
+no change from master branch, 
+retrain the model using year-month 202110
 
-* The pipeline is scheduled to be run at 00:00 on the 20th of every month, triggered by cloud watch.
-
-* To run the pipeline manually, use the input as below (the year_month need to be changed to the right year_month):
+* Training:
+Step function input:
 {
-  "year_month": "2021-12",
+  "job_key": "Train20220202",
+  "version": "v20220202",
+  "year_month": 202110,
+  "task": "training",
   "bucket": "rnd-avm-v2-dev"
 }
 
-## avm_report dashboard server
+* Evaluation:
+Step function input:
+{
+  "job_key": "EvProd20220202",
+  "version": "v20220202",
+  "year_month": 202110,
+  "task": "batch_transform",
+  "training_job_key": "Train20220202",
+  "bucket": "rnd-avm-v2-dev",
+  "test_data_key": "avm2.5/production/monthly-evaluation/v20220202/df_sales.csv"
+}
 
-* set up an EC2 instance at AWS, allow access to TCP port 8501 in security group setting
+Test data: out-of-time test set with sales from 2021-10-01 to 2021-12-31.
 
-* Install python packages: psycopg2-binary, plotly_express, streamlit, sqlalchemy
+Evaluation notebook: https://dev-yifeng-2-large-node.notebook.ca-central-1.sagemaker.aws/notebooks/avm2.5/994-production-monthly-evaluation/2022-02/01_avmv2_5_evaluation_v20220202.ipynb
 
-* Run the server in a tmux terminal: streamlit run avm_report.py
+
+
 
 
 
