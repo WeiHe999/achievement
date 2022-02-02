@@ -7,6 +7,7 @@ retrain the model using year-month 202110
 
 * Training:
 Step function input:
+```
 {
   "job_key": "Train20220202",
   "version": "v20220202",
@@ -14,6 +15,8 @@ Step function input:
   "task": "training",
   "bucket": "rnd-avm-v2-dev"
 }
+```
+
 
 ## Evaluation:
 * Step function input:
