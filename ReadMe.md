@@ -20,7 +20,7 @@ Step function input:
 
 ## Evaluation:
 * Step function input:
-'''
+```
 {
   "job_key": "EvProd20220202",
   "version": "v20220202",
@@ -30,7 +30,7 @@ Step function input:
   "bucket": "rnd-avm-v2-dev",
   "test_data_key": "avm2.5/production/monthly-evaluation/v20220202/df_sales.csv"
 }
-'''
+```
 
 * Test data: out-of-time test set with sales from 2021-10-01 to 2021-12-31.
 
