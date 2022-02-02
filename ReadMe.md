@@ -34,7 +34,7 @@
 
 * Evaluation notebook: https://dev-yifeng-2-large-node.notebook.ca-central-1.sagemaker.aws/notebooks/avm2.5/994-production-monthly-evaluation/2022-02/01_avmv2_5_evaluation_v20220202.ipynb
 
-* Evaluation result:
+* Evaluation result: s3://rnd-avm-v2-dev/avm_v2_5_production_evaluation/202104/TrProd202104a19/out-of-time-evaluation/df_EvProd202104a19.csv
 
 | Metric        | Value         |
 | ------------- |:-------------:|
@@ -43,4 +43,3 @@
 | Mean_APE      | 0.2291        |
 | Within_15%    | 0.6717        |
 
- Evaluation result is stored at: s3://rnd-avm-v2-dev/avm_v2_5_production_evaluation/202104/TrProd202104a19/out-of-time-evaluation/df_EvProd202104a19.csv
