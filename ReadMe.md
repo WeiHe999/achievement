@@ -43,4 +43,4 @@
 | Mean_APE      | 0.2291        |
 | Within_15%    | 0.6717        |
 
-  - Evaluation result is stored at: s3://rnd-avm-v2-dev/avm_v2_5_production_evaluation/202104/TrProd202104a19/out-of-time-evaluation/df_EvProd202104a19.csv
+ Evaluation result is stored at: s3://rnd-avm-v2-dev/avm_v2_5_production_evaluation/202104/TrProd202104a19/out-of-time-evaluation/df_EvProd202104a19.csv
