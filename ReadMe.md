@@ -34,7 +34,13 @@
 
 * Evaluation notebook: https://dev-yifeng-2-large-node.notebook.ca-central-1.sagemaker.aws/notebooks/avm2.5/994-production-monthly-evaluation/2022-02/01_avmv2_5_evaluation_v20220202.ipynb
 
-
+* Evaluation result:
+| Metric        | Value         |
+| ------------- |:-------------:|
+| Test size     | right foo     |
+| Median_APE    | right bar     |
+| Mean_APE      | right baz     |
+| Within_15%    | right baz     |
 
 
 
