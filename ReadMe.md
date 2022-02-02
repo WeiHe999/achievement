@@ -38,11 +38,8 @@
 
 | Metric        | Value         |
 | ------------- |:-------------:|
-| Test size     | right foo     |
-| Median_APE    | right bar     |
-| Mean_APE      | right baz     |
-| Within_15%    | right baz     |
-
-
-
+| Test size     | 19234         |
+| Median_APE    | 0.0921        |
+| Mean_APE      | 0.2291        |
+| Within_15%    | 0.6717        |
 
