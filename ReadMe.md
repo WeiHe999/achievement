@@ -50,4 +50,4 @@ early_date2 = pd.to_datetime(target_sold_date)+relativedelta(
 
 ## Conclusion:
 
-* Compared to 2-month backward period for ratio_sales_listing, using 3-month backward period slightly improves the performance. (Please check the result for 2-month backward period in experiment v22020202.)
+* Compared to 2-month backward period for ratio_sales_listing shown in experiment v22020202, using 3-month backward period slightly improves the performance. 
