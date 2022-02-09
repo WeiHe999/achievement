@@ -1,6 +1,6 @@
-# edm_v4
+# edm_condo_v2
 
-## edm_v4 models (default)
+## edm_condo_v2 models
 
 ### Description
 
@@ -225,3 +225,50 @@ s3://rnd-sagemaker-model-artifacts-dev/model_dict/edm_mpac_v4/dict_config.pickle
   "bucket": "rnd-edm-v4-dev"
 }
 ```
+
+
+
+
+# training
+
+{
+  "job_key": "TrainCat4",
+  "task": "training",
+  "targets": "numberofbaths, numberofbedrooms, numberofdens, architecturalstyle",
+  "bucket": "rnd-edm-condo-v2-dev"
+}
+
+{
+  "job_key": "TrainNum4",
+  "task": "training",
+  "targets": "totalfloorarea, yearbuilt, numberofstoreys, floorlevel",
+  "bucket": "rnd-edm-condo-v2-dev"
+}
+
+# batch-transform
+{
+  "job_key": "TestCat4",
+  "test_data_key": "base_data/TrainCat4/result/df_test_set.csv",
+  "targets": "numberofbaths, numberofbedrooms, numberofdens, architecturalstyle",
+  "task": "batch_transform",
+  "bucket": "rnd-edm-condo-v2-dev",
+  "training_job_key": "TrainCat4"
+}
+
+{
+  "job_key": "TestNum4",
+  "test_data_key": "base_data/TrainNum4/result/df_test_set.csv",
+  "targets": "totalfloorarea, yearbuilt, numberofstoreys, floorlevel",
+  "task": "batch_transform",
+  "bucket": "rnd-edm-condo-v2-dev",
+  "training_job_key": "TrainNum4"
+}
+
+
+
+# base data
+{
+  "job_key": "Base3",
+  "task": "base_data",
+  "bucket": "rnd-edm-condo-v2-dev"
+}
