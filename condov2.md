@@ -4,59 +4,49 @@
 
 ### Description
 
-* Trained with Zillow ground-truth data, KNN table is edm_condo_v2.knn_base 
+* Trained with ground-truth data from **opta_data.construction_features_condo**, KNN table is **edm_condo_v2.knn_base** 
 * edm_condo_v2 training job names:
 ```
-{'numberofbaths':       'edm-TrainCatA1V3-numberofbat01',
- 'foundationtype':      'edm-TrainCatA1V3-foundationt01',
- 'finishedbasement':    'edm-TrainCatA1V3-finishedbas01',
- 'rooftype':            'edm-TrainCatA1-rooftype-31',
- 'numberofstoreys':     'edm-TrainB5-numberofstoreys-17',
- 'exteriorwalltype':    'edm-TrainB5-exteriorwalltype17',
- 'garagetype':          'edm-TrainA6-garagetype-44',
- 'architecturalstyle':  'edm-TrainA6-architecturalsty44',
- 'yearbuilt':           'edm-TrainNumA1-yearbuilt-41',
- 'totalfloorarea':      'edm-TrainNumA1-totalfloorare41'}
+{'totalfloorarea':       'T-TrainNum6A-totalfloorarea-22',
+ 'yearbuilt':            'T-ondo-TrainNum6A-yearbuilt-22',
+ 'numberofstoreys':      'T-rainNum6A-numberofstoreys-22',
+ 'floorlevel':           'T-ndo-TrainNum6A-floorlevel-22',
+ 'numberofbaths':        'T--TrainCat6A-numberofbaths-59',
+ 'numberofbedrooms':     'T-ainCat6A-numberofbedrooms-59',
+ 'numberofdens':         'T-o-TrainCat6A-numberofdens-59',
+ 'architecturalstyle':   'T-nCat6A-architecturalstyle-59'}
 ```
 * edm_condo_v2 step-function training job-keys:
 ```
-{'numberofbaths':      'TrainCatA1V3',
- 'foundationtype':     'TrainCatA1V3',
- 'finishedbasement':   'TrainCatA1V3',
- 'rooftype':           'TrainCatA1',
- 'numberofstoreys':    'TrainB5',
- 'exteriorwalltype':   'TrainB5',
- 'garagetype':         'TrainA6',
- 'architecturalstyle': 'TrainA6',
- 'yearbuilt':          'TrainNumA1',
- 'totalfloorarea':     'TrainNumA1'}
+{'totalfloorarea':       'TrainNum6A',
+ 'yearbuilt':            'TrainNum6A',
+ 'numberofstoreys':      'TrainNum6A',
+ 'floorlevel':           'TrainNum6A',
+ 'numberofbaths':        'TrainCat6A',
+ 'numberofbedrooms':     'TrainCat6A',
+ 'numberofdens':         'TrainCat6A',
+ 'architecturalstyle':   'TrainCat6A'}
 ```
 * edm_condo_v2 models are used to score national datalake
 * URL for edm_condo_v2 model dict:
 ```
-s3://rnd-sagemaker-model-artifacts-dev/model_dict/edm_condo_v2/dict_config.pickle
+s3://rnd-sagemaker-model-artifacts-dev/model_dict/edmcondo_v2/dict_config.pickle
 ```
 
 ### Re-train:
 * Step function inputs:
 ``` 
 {
-  "job_key": "TrainCatK1",
+  "job_key": "TrainNum7A",
   "task": "training",
-  "targets": "numberofbaths, foundationtype, finishedbasement, rooftype",
-  "bucket": "rnd-edm-v4-dev"
+  "targets": "totalfloorarea, yearbuilt, numberofstoreys, floorlevel",
+  "bucket": "rnd-edm-condo-v2-dev"
 }
 {
-  "job_key": "TrainNumK1",
+  "job_key": "TrainCat7A",
   "task": "training",
-  "targets": "yearbuilt, totalfloorarea",
-  "bucket": "rnd-edm-v4-dev"
-}
-{
-  "job_key": "TrainCatK2",
-  "task": "training",
-  "targets": "numberofstoreys, exteriorwalltype, architecturalstyle, garagetype",
-  "bucket": "rnd-edm-v4-dev"
+  "targets": "numberofbaths, numberofbedrooms, numberofdens, architecturalstyle",
+  "bucket": "rnd-edm-condo-v2-dev"
 }
 ```
 
@@ -65,44 +55,20 @@ s3://rnd-sagemaker-model-artifacts-dev/model_dict/edm_condo_v2/dict_config.pickl
 ```
 # Test set evaluation
 {
-  "job_key": "EvalTrainCatA1V3PV",
-  "test_data_key": "evaluation/pv/df_test.csv",
-  "targets": "numberofbaths, foundationtype, finishedbasement",
+  "job_key": "TestNum6AV2",
+  "test_data_key": "base_data/TrainNum6A/result/df_test_set.csv",
+  "targets": "totalfloorarea, yearbuilt, numberofstoreys, floorlevel",
   "task": "batch_transform",
-  "bucket": "rnd-edm-v4-dev",
-  "training_job_key": "TrainCatA1V3"
+  "bucket": "rnd-edm-condo-v2-dev",
+  "training_job_key": "TrainNum6A"
 }
 {
-  "job_key": "EvalTrainCatA1PV",
-  "test_data_key": "evaluation/pv/df_test.csv",
-  "targets": "rooftype",
+  "job_key": "TestCat6AV2",
+  "test_data_key": "base_data/TrainCat6A/result/df_test_set.csv",
+  "targets": "numberofbaths, numberofbedrooms, numberofdens, architecturalstyle",
   "task": "batch_transform",
-  "bucket": "rnd-edm-v4-dev",
-  "training_job_key": "TrainCatA1"
-}
-{
-  "job_key": "EvalTrainB5PV",
-  "test_data_key": "evaluation/pv/df_test.csv",
-  "targets": "numberofstoreys, exteriorwalltype",
-  "task": "batch_transform",
-  "bucket": "rnd-edm-v4-dev",
-  "training_job_key": "TrainB5"
-}
-{
-  "job_key": "EvalTrainA6PV",
-  "test_data_key": "evaluation/pv/df_test.csv",
-  "targets": "garagetype, architecturalstyle",
-  "task": "batch_transform",
-  "bucket": "rnd-edm-v4-dev",
-  "training_job_key": "TrainA6"
-}
-{
-  "job_key": "EvalTrainNumA1PV",
-  "test_data_key": "evaluation/pv/df_test.csv",
-  "targets": "yearbuilt, totalfloorarea",
-  "task": "batch_transform",
-  "bucket": "rnd-edm-v4-dev",
-  "training_job_key": "TrainNumA1"
+  "bucket": "rnd-edm-condo-v2-dev",
+  "training_job_key": "TrainCat6A"
 }
 ```
 * For datalake scoring, set **test_data_key** to: datalake/data/df_1.csv, datalake/data/df_2.csv, datalake/data/df_3.csv, datalake/data/df_4.csv, datalake/data/df_5.csv, respectively.
@@ -111,8 +77,8 @@ s3://rnd-sagemaker-model-artifacts-dev/model_dict/edm_condo_v2/dict_config.pickl
 * Step function input:
 ```
 {
-  "job_key": "Base202202",
+  "job_key": "Base202203",
   "task": "base_data",
-  "bucket": "rnd-edm-v4-dev"
+  "bucket": "rnd-edm-condo-v2-dev",
 }
 ```
