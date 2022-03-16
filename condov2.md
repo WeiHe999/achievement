@@ -35,18 +35,21 @@ s3://rnd-sagemaker-model-artifacts-dev/model_dict/edmcondo_v2/dict_config.pickle
 
 ### Re-train:
 * Step function inputs:
+* "version" in step function input needs to be the same to the experiment_version defined in terraform script (variables.tf)
 ``` 
 {
   "job_key": "TrainNum7A",
   "task": "training",
   "targets": "totalfloorarea, yearbuilt, numberofstoreys, floorlevel",
-  "bucket": "rnd-edm-condo-v2-dev"
+  "bucket": "rnd-edm-condo-v2-dev",
+  "version": "v0"
 }
 {
   "job_key": "TrainCat7A",
   "task": "training",
   "targets": "numberofbaths, numberofbedrooms, numberofdens, architecturalstyle",
-  "bucket": "rnd-edm-condo-v2-dev"
+  "bucket": "rnd-edm-condo-v2-dev",
+  "version": "v0"
 }
 ```
 
@@ -59,6 +62,7 @@ s3://rnd-sagemaker-model-artifacts-dev/model_dict/edmcondo_v2/dict_config.pickle
   "test_data_key": "base_data/TrainNum6A/result/df_test_set.csv",
   "targets": "totalfloorarea, yearbuilt, numberofstoreys, floorlevel",
   "task": "batch_transform",
+  "version": "v0",
   "bucket": "rnd-edm-condo-v2-dev",
   "training_job_key": "TrainNum6A"
 }
@@ -67,6 +71,7 @@ s3://rnd-sagemaker-model-artifacts-dev/model_dict/edmcondo_v2/dict_config.pickle
   "test_data_key": "base_data/TrainCat6A/result/df_test_set.csv",
   "targets": "numberofbaths, numberofbedrooms, numberofdens, architecturalstyle",
   "task": "batch_transform",
+  "version": "v0",
   "bucket": "rnd-edm-condo-v2-dev",
   "training_job_key": "TrainCat6A"
 }
