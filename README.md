@@ -9,3 +9,6 @@
 
 
 ## Computer Contest
+
+* Received 67 out of 75 in Canadian Computing Competition (CCC) (Junior Division) 2022, rank top 1.5% among 71143 participants
+![CCC_Junior_2022](CCC_Junior_2022.jpg "CCC_Junior_2022")
