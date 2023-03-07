@@ -14,6 +14,5 @@
 ![CCC_Junior_2022](CCC_Junior_2022.jpg "CCC_Junior_2022")
 
 * Ranked top-15% among 3986 contestants in Canadian Computing Competition (CCC) (Senior Division) 2023.
-![CCC_Senior_Result_2023](ccc2023_results.png "CCC_Senior_Result_2023")
 
 * Promoted to Silver in USACO 2023 February Bronze Contest
