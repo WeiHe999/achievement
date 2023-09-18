@@ -20,4 +20,4 @@
 
 ## Piano
 
-* Received 85 out of 100 in Royal Conservatory of Music (RCM) piano level-8 practical examinantion.
+* Received 85 out of 100 in Royal Conservatory of Music (RCM) piano level-8 practical examinantion on 2023-08-09.
