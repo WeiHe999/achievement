@@ -17,3 +17,7 @@
 ![CCC_Senior_2023](WeiHe_CCC2023.jpg "WeiHe_CCC2023")
 
 * Promoted to Silver in USACO 2023 February Bronze Contest
+
+## Piano
+
+* Received 85 out of 100 in Royal Conservatory of Music (RCM) piano level-8 practical examinantion.
