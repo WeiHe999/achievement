@@ -16,7 +16,7 @@
 * Ranked top-15% among 3986 contestants in Canadian Computing Competition (CCC) (Senior Division) 2023.
 ![CCC_Senior_2023](WeiHe_CCC2023.jpg "WeiHe_CCC2023")
 
-* Promoted to Silver in USACO 2023 February Bronze Contest
+* Promoted to Silver in USACO 2023 February Bronze Contest.
 
 ## Piano
 
