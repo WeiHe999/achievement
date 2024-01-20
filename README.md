@@ -8,7 +8,7 @@
 ![CertificateofAchievement_AMC8_2022](CertificateofAchievement_AMC8_2022.jpg "CertificateofAchievement_AMC8_2022")
 
 * Received 103.5 out of 150 on the 2023 AMC 10B contest.
-![CertificateofAchievement_AMC10B_2023](CertificateofAchievement_AMC10B_2023.jpeg" CertificateofAchievement_AMC10B_2023")
+![CertificateofAchievement_AMC10B_2023](WEiHeAMC10B_2023.jpeg" CertificateofAchievement_AMC10B_2023")
 
 ## Computer Competition
 
