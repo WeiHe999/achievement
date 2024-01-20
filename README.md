@@ -5,10 +5,10 @@
 * Received 21 out of 25 in American Mathematics Competition 8 (AMC-8) 2022, rank top 1.5% among 71143 contestants
 
 ![HonorRoll_AMC_8_2022](HonorRoll_AMC_8_2022.jpg "HonorRoll_AMC_8_2022")
-![CertificateofAchievement_AMC8_2022](CertificateofAchievement_AMC10B_2023.jpeg "CertificateofAchievement_AMC8_2022")
+![CertificateofAchievement_AMC8_2022](CertificateofAchievement_AMC8_2022.jpg"CertificateofAchievement_AMC8_2022")
 
 * Received 103.5 out of 150 on the 2023 AMC 10B contest.
-![CertificateofAchievement_AMC10B_2023](CertificateofAchievement_AMC8_2022.jpg "CertificateofAchievement_AMC10B_2023")
+![CertificateofAchievement_AMC10B_2023](CertificateofAchievement_AMC10B_2023.jpeg"CertificateofAchievement_AMC10B_2023")
 
 ## Computer Competition
 
