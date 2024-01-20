@@ -7,6 +7,7 @@
 ![HonorRoll_AMC_8_2022](HonorRoll_AMC_8_2022.jpg "HonorRoll_AMC_8_2022")
 ![CertificateofAchievement_AMC8_2022](CertificateofAchievement_AMC8_2022.jpg "CertificateofAchievement_AMC8_2022")
 
+* Received 103.5 out of 150 on the 2023 AMC 10B contest.
 
 ## Computer Competition
 
