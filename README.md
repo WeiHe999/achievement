@@ -20,6 +20,9 @@
 
 * Promoted to Silver in USACO 2023 February Bronze Contest.
 
+* Ranked top-12% among 3986 contestants in Canadian Computing Competition (CCC) (Senior Division) 2024.
+![CCC_Senior_2023](WeiHe_CCC2023.jpg "WeiHe_CCC2023")
+
 ## Piano
 
 * Received 85 out of 100 in Royal Conservatory of Music (RCM) piano level-8 practical examinantion on 2023-08-09.
