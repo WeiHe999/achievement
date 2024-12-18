@@ -10,6 +10,10 @@
 * Received 103.5 out of 150 on the 2023 AMC 10B contest.
 ![CertificateofAchievement_AMC10B_2023](WeiHeAMC10B_2023.jpg "CertificateofAchievement_AMC10B_2023")
 
+* Received 97.5 out of 150 on the 2024 AMC 10A contest, qualified for 2025 American Invitational Mathematics Exam (AIME).
+![CertificateofAchievement_AMC10B_2024](Wei_He_2024_AMC_10A_CertificateOfAchievement.jpg "CertificateofAchievement_AMC10A_2024")
+![AIME_Qualification_AMC10A_2024](Wei_He_2024_AMC_10A_AIME.jpg "AIME Qualification_AMC10A_2024")
+
 ## Computer Competition
 
 * Received 68 out of 75 in Canadian Computing Competition (CCC) (Junior Division) 2022, rank 22nd among 4909 contestants
