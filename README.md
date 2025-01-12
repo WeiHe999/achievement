@@ -30,7 +30,8 @@
 ## Robotics Competition
 
 * Our team (Team #27115 - Delta Robotics) received Inspire Award 2rd Place in FIRST Tech Challenge (FTC) Kingston Qualifier 2025.
-![FTC_inspire_award](FTC_inspire_award_2025.JPG "FTC Inspire Award 2025")
+![FTC_inspire_award](FTC_inspire_award_2025.jpg "FTC Inspire Award 2025")
+![FTC_inspire_medal](FTC_inspire_medal_2025.jpg "FTC Inspire Medal 2025")
 
 ## Piano
 
