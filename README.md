@@ -27,6 +27,11 @@
 * Ranked Certificate of Distinction in Canadian Computing Competition (CCC) (Senior Division) 2024.
 ![CCC_Senior_2024](WeiHe_CCC2024.jpg "WeiHe_CCC2024")
 
+## Robotics Competition
+
+* Received 68 out of 75 in Canadian Computing Competition (CCC) (Junior Division) 2022, rank 22nd among 4909 contestants
+![FTC_inspire_award](CCC_Junior_2022.jpg "FTC Inspire Award 2025")
+
 ## Piano
 
 * Received 85 out of 100 in Royal Conservatory of Music (RCM) piano level-8 practical examinantion on 2023-08-09.
