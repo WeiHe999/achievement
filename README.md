@@ -14,6 +14,9 @@
 ![CertificateofAchievement_AMC10B_2024](WeiHe_2024_AMC_10A_CertificateOfAchievement.jpg "CertificateofAchievement_AMC10A_2024")
 ![AIME_Qualification_AMC10A_2024](WeiHe_2024_AMC_10A_AIME_qualification.jpg "AIME Qualification_AMC10A_2024")
 
+* Received Certificate of Distinction in 2024 Canadian Senior Mathematics Contest (CSMA) with score 38 out of 60.
+
+
 ## Computer Competition
 
 * Received 68 out of 75 in Canadian Computing Competition (CCC) (Junior Division) 2022, rank 22nd among 4909 contestants
