@@ -29,7 +29,7 @@
 
 ## Robotics Competition
 
-* Our team (Team #27115 - Delta Robotics) received Inspire Award 2rd Place in FIRST Tech Challenge (FTC) Kingston Qualifier 2025, qualified for advancing to Ontario Provincial Championship. YouTube video: https://youtu.be/QFswWYzxKrY?feature=shared
+* Our team (Team #27115 - Delta Robotics, in which my role is a Java programmer) received Inspire Award 2rd Place in FIRST Tech Challenge (FTC) Kingston Qualifier 2025, qualified for Ontario Provincial Championship. YouTube video: https://youtu.be/QFswWYzxKrY?feature=shared
 ![FTC_inspire_award](FTC_inspire_award_2025.jpg "FTC Inspire Award 2025")
 ![FTC_inspire_medal](FTC_inspire_medal_2025.jpg "FTC Inspire Medal 2025")
 
