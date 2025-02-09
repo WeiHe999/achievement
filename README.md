@@ -15,6 +15,7 @@
 ![AIME_Qualification_AMC10A_2024](WeiHe_2024_AMC_10A_AIME_qualification.jpg "AIME Qualification_AMC10A_2024")
 
 * Received Certificate of Distinction in 2024 Canadian Senior Mathematics Contest (CSMA) with score 38 out of 60.
+* ![Certificate_of_Distinction_CSMC_2024](CSMC_distinction_2024.jpg "CertificateofDistinction_CSMC_2024")
 
 
 ## Computer Competition
