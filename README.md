@@ -17,6 +17,9 @@
 * Received Certificate of Distinction in 2024 Canadian Senior Mathematics Contest (CSMA) with score 38 out of 60.
 * ![Certificate_of_Distinction_CSMC_2024](CSMC_distinction_2024.jpg "CertificateofDistinction_CSMC_2024")
 
+* * Received Certificate of Distinction in 2025 Euclid Contest with score 72 out of 100.
+* ![Certificate_of_Distinction_Euclid_2025](Euclid_distinction_2025.jpg "CertificateofDistinction_Euclid_2025")
+
 
 ## Computer Competition
 
